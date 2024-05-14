@@ -1,0 +1,29 @@
+html,
+body {
+  background-color: #001f3f; /* Azul marino oscuro */
+}
+
+.form-signin {
+  background-color: #fff; /* Fondo blanco para el formulario */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  max-width: 500px; /* Ancho máximo del formulario */
+  margin: 100px auto; /* Margen superior e inferior para centrarlo verticalmente */
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
